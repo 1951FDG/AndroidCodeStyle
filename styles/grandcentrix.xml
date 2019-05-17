@@ -510,6 +510,16 @@
           <rule>
             <match>
               <AND>
+                <NAME>onLowMemory</NAME>
+                <OVERRIDDEN />
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
                 <NAME>onDestroy</NAME>
                 <OVERRIDDEN />
               </AND>
@@ -531,6 +541,26 @@
             <match>
               <AND>
                 <NAME>onRequestPermissionsResult</NAME>
+                <OVERRIDDEN />
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <NAME>onMapReady</NAME>
+                <OVERRIDDEN />
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <NAME>onMapLoaded</NAME>
                 <OVERRIDDEN />
               </AND>
             </match>
